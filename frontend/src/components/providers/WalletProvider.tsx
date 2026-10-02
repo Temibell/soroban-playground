@@ -287,7 +287,7 @@ export interface WalletAccount {
   isMultisig?: boolean;
 }
 
-interface WalletContextType {
+export interface WalletContextType {
   activeWallet: WalletType | null;
   activeAccount: string | null;
   address: string | null; // Alias for activeAccount
